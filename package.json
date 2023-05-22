@@ -1,0 +1,58 @@
+{
+  "name": "angular-scroll-to-top",
+  "description": "Angular application to demonstrate auto-scroll to top",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirbmuk/angular-scroll-to-top.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anirbmuk/angular-scroll-to-top/issues"
+  },
+  "homepage": "https://theangularpath.anirbanblogs.com/2021/06/angular-scroll-to-top-implementation.html",
+  "keywords": [
+    "angular",
+    "scroll",
+    "rxjs"
+  ],
+  "author": "anirbmuk",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "postinstall": "ngcc"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^15.2.9",
+    "@angular/cdk": "^15.2.9",
+    "@angular/common": "^15.2.9",
+    "@angular/compiler": "^15.2.9",
+    "@angular/core": "^15.2.9",
+    "@angular/forms": "^15.2.9",
+    "@angular/material": "^15.2.9",
+    "@angular/platform-browser": "^15.2.9",
+    "@angular/platform-browser-dynamic": "^15.2.9",
+    "@angular/router": "^15.2.9",
+    "bootstrap": "^5.2.3",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.1.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.2.8",
+    "@angular/cli": "^15.2.8",
+    "@angular/compiler-cli": "^15.2.9",
+    "@types/jasmine": "~3.6.0",
+    "@types/node": "^12.11.1",
+    "jasmine-core": "~5.0.0",
+    "karma": "~6.4.2",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "typescript": "~4.9.5"
+  }
+}
